@@ -1,8 +1,10 @@
-# test_main.py
 from main import fizzbuzz
 
 def test_fizz():
-    assert fizzbuzz(3) == "Fizz"  # Input 3 should return "Fizz"
+    assert fizzbuzz(3) == "Fizz"
 
 def test_buzz():
-    assert fizzbuzz(5) == "Buzz"  # Input 5 should return "Buzz"
+    assert fizzbuzz(5) == "Buzz"
+
+def test_fizzbuzz():
+    assert fizzbuzz(15) == "FizzBuzz"
